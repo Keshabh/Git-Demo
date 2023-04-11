@@ -23,4 +23,4 @@
 23. changes made in one branch wont be visible in its previous branches, if not merged.
 24. git branch -d branch-name to delete a branch.
 25. "git merge branch-name" to merge a branch with branch-name in the current branch.
-26. 
+26. "git checkout -b branch-name", to create and checkout branch at the same time.
