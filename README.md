@@ -32,3 +32,4 @@
 30. "git push -u -f origin branch-main", for force push.
 31. "git remote add origin github-repo-remote-URL", to add the path of remote repository in github.
 32. "git clone github-repo-remote-URL", to clone or copy the entire project from main branch of github to the path of the folder specified in bash.
+    [To read more!](https://www.javatpoint.com/git)
