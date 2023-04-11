@@ -15,4 +15,5 @@
 15. "git diff HEAD", to see the changes in commit area.
 16. "git log", contains entire info or history of all the commits made(contains author name, date when commit made, commit message).
 17. "git log -p -n", where n means last n(numeric value) commits.
-18. 
+18. "git merge branch-name" to merge a branch with branch-name in the current branch.
+19. 
