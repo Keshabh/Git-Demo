@@ -1,4 +1,4 @@
-# ${{color{red}GIT-NOTE}}$
+# ${{\color{red}GITNOTE}}$
 ![Git Indexing](https://static.javatpoint.com/tutorial/git/images/git-index.png)
 1. create a folder, and in the path of the folder, just enter cmd and click, it opens the terminal with the path of the folder.
 2. Then in terminal, enter ${{color{red}"code ."}}$, it opens the project in vs code.
