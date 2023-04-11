@@ -1,7 +1,7 @@
 # ${{\color{red}GIT-NOTE}}$
 ![Git Indexing](https://static.javatpoint.com/tutorial/git/images/git-index.png)
 1. create a folder, and in the path of the folder, just enter cmd and click, it opens the terminal with the path of the folder.
-2. Then in terminal, enter ${{\color{red}code.}}$, it opens the project in vs code.
+2. Then in terminal, enter ${{\color{red}"code ."}}$, it opens the project in vs code.
 3. git init - to initialize a git repositoty in the project.
 4. first project is in working directory -> git add -> goes to staging area -> git commit -> repositoty
 5. git status - gives information whether any files are added or not added in staging area and also commited or not.
