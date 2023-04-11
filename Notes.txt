@@ -25,4 +25,4 @@
 25. "git merge branch-name" to merge a branch with branch-name in the current branch.
 26. "git checkout -b branch-name", to create and checkout branch at the same time.
 27. "git commit -a -m "message"", to add and commit at the same time.
-28. 
+28. "git branch -M branch-name", to rename the branch name.
