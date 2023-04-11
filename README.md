@@ -1,3 +1,8 @@
+<style>
+  body{
+  color:red;
+  }
+</style>
 # GIT NOTE
 ![Git Indexing](https://static.javatpoint.com/tutorial/git/images/git-index.png)
 1. create a folder, and in the path of the folder, just enter cmd and click, it opens the terminal with the path of the folder.
