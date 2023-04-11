@@ -26,3 +26,7 @@
 26. "git checkout -b branch-name", to create and checkout branch at the same time.
 27. "git commit -a -m "message"", to add and commit at the same time.
 28. "git branch -M branch-name", to rename the branch name.
+29. "git push -u origin branch-name", to push in the specified branch.
+30. "git push -u -f origin branch-main", for force push.
+31. "git remote add origin github-repo-remote-URL", to add the path of remote repository in github.
+32. "git clone github-repo-remote-URL", to clone or copy the entire project from main branch of github to the path of the folder specified in bash.
