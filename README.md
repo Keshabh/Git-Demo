@@ -41,7 +41,7 @@
   * git reset --mixed HEAD~1 :  mixed reset(deafult reset), which removes commit and keep the changes in working directory.
   * git reset --soft HEAD~1 :  soft reset, removes commit and keep the changes in staging area.
   * git reset --hard HEAD~1 :  hard reset, removes commit as well as the changes from working directory.
-4. But if the commit is made and pushed to remote repo, then git revert commitIDFromGitLog, to revert the changes but with new commit.
+4. But if the commit is made and pushed to remote repo, then git revert commitIDFromGitLog, to revert the changes from local as well as repo, but with new commit.
 
 [To read more!](https://www.javatpoint.com/git)
 
