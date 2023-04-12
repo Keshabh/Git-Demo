@@ -31,6 +31,7 @@
 29. **${{\color{orange}git\ push\ -u\ origin\ branch-name}}$**, to push in the specified branch.
 30. **${{\color{orange}git\ push\ -u\ -f\ origin\ branch-name}}$**, for force push.
 31. **${{\color{orange}git\ remote\ add\ origin\ github-repo-remote-URL}}$**,to add the path of remote repository in github.
-32. **${{\color{orange}git\ clone\ github-repo-remote-URL}}$**, to clone or copy the entire project from main branch of github to the path of the folder specified in bash.
+32. **${{\color{orange}git\ clone\ github-repo-remote-URL}}$**, to clone or copy the entire project from main branch of github to the path of the folder specified in bash. 
+33. Git clone means making a copy of the repository on the local system while git fork means copying a repository on the remote server itself i.e on the github itself,(but should be done from repo in another github account),(forking keeps a sync of repo, i.e if changes are made in orgin repo, it can be reflected in forked repo). 
 [To read more!](https://www.javatpoint.com/git)
 
