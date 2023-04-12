@@ -33,5 +33,15 @@
 31. **${{\color{orange}git\ remote\ add\ origin\ github-repo-remote-URL}}$**,to add the path of remote repository in github.
 32. **${{\color{orange}git\ clone\ github-repo-remote-URL}}$**, to clone or copy the entire project from main branch of github to the path of the folder specified in bash. 
 33. Git clone means making a copy of the repository on the local system while git fork means copying a repository on the remote server itself i.e on the github itself,(but should be done from repo in another github account),(forking keeps a sync of repo, i.e if changes are made in orgin repo, it can be reflected in forked repo). 
+
+## REVERT CHANGES
+1. To discard all the changes in the working area, we use git checkout filename or git checkout .(for all changes in all files).
+2. To unstage all changes from staging area(keeps the change in working area), we use git reset HEAD filename or git reset HEAD * (for all)
+3. To remove files from local repository,first use git log to check all the commits made, then -> use git reset HEAD~1(it undos last 1 commit, but keeps the changes in the working directory), and if we do git reset HEAD~1(it undos last 3 commit).
+  * git reset --mixed HEAD~1 :  mixed reset(deafult reset), which removes commit and keep the changes in working directory.
+  * git reset --soft HEAD~1 :  soft reset, removes commit and keep the changes in staging area.
+  * git reset --hard HEAD~1 :  hard reset, removes commit as well as the changes from working directory.
+4. But if the commit is made and pushed to remote repo, then git revert commitIDFromGitLog, to revert the changes but with new commit.
+
 [To read more!](https://www.javatpoint.com/git)
 
